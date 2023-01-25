@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.memory.domain.entities.Hero
 import com.example.memory.presenter.ui.theme.MemoryTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +23,28 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Board(heroCards = listOf(
+                        Hero(1),
+                        Hero(2),
+                        Hero(3),
+                        Hero(4),
+                        Hero(5),
+                        Hero(6),
+                        Hero(7),
+                        Hero(8),
+                        Hero(9),
+                        Hero(10),
+                        Hero(11),
+                        Hero(12),
+                        Hero(13),
+                        Hero(14),
+                        Hero(15),
+                        Hero(16),
+                        Hero(17),
+                        Hero(18),
+                        Hero(19),
+                        Hero(20),
+                    ))
                 }
             }
         }
