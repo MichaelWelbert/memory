@@ -1,4 +1,4 @@
-package com.example.memory.ui.theme
+package com.example.memory.presenter.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
